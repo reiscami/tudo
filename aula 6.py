@@ -1,0 +1,20 @@
+#n1=int(input('Digite um numero:'))
+#n2=int(input('Digite outro numero:'))
+#s= n1+n2
+#print("A soma entre", n1, 'e', n2, 'e igual a',s)
+#print('a soma entre {} e {} e igual a {}'.format(n1, n2, s))
+
+#n = input('digite algo:')
+#print(n.isalpha())
+#print(n.isnumeric())
+#print(n.isalnum())
+
+a = input('digite algo:')
+print('o tipo primitivo desse valor é', type(a))
+print('so tem espaços?:', a.isspace())
+print('E apenas numerico?', a.isnumeric())
+print('e alfabetico?', a.isalpha())
+print('esta em alfanumerico?', a.isalnum())
+print('esta em maiuscula?', a.isupper())
+print('esta em minuscula?', a.islower())
+print('esta capitalizada?', a.istitle())
